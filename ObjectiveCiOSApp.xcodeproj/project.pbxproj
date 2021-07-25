@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF53B9DA26ADD43200C2FD21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53B9D926ADD43200C2FD21 /* AppDelegate.m */; };
+		EF53B9DD26ADD43200C2FD21 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53B9DC26ADD43200C2FD21 /* SceneDelegate.m */; };
+		EF53B9E026ADD43200C2FD21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53B9DF26ADD43200C2FD21 /* ViewController.m */; };
+		EF53B9E326ADD43200C2FD21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF53B9E126ADD43200C2FD21 /* Main.storyboard */; };
+		EF53B9E626ADD43200C2FD21 /* ObjectiveCiOSApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF53B9E426ADD43200C2FD21 /* ObjectiveCiOSApp.xcdatamodeld */; };
+		EF53B9E826ADD43300C2FD21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF53B9E726ADD43300C2FD21 /* Assets.xcassets */; };
+		EF53B9EB26ADD43300C2FD21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF53B9E926ADD43300C2FD21 /* LaunchScreen.storyboard */; };
+		EF53B9EE26ADD43300C2FD21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53B9ED26ADD43300C2FD21 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF53B9D526ADD43200C2FD21 /* ObjectiveCiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveCiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF53B9D826ADD43200C2FD21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF53B9D926ADD43200C2FD21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF53B9DB26ADD43200C2FD21 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EF53B9DC26ADD43200C2FD21 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EF53B9DE26ADD43200C2FD21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF53B9DF26ADD43200C2FD21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF53B9E226ADD43200C2FD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF53B9E526ADD43200C2FD21 /* ObjectiveCiOSApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ObjectiveCiOSApp.xcdatamodel; sourceTree = "<group>"; };
+		EF53B9E726ADD43300C2FD21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF53B9EA26ADD43300C2FD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF53B9EC26ADD43300C2FD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF53B9ED26ADD43300C2FD21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF53B9D226ADD43200C2FD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF53B9CC26ADD43200C2FD21 = {
+			isa = PBXGroup;
+			children = (
+				EF53B9D726ADD43200C2FD21 /* ObjectiveCiOSApp */,
+				EF53B9D626ADD43200C2FD21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF53B9D626ADD43200C2FD21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF53B9D526ADD43200C2FD21 /* ObjectiveCiOSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF53B9D726ADD43200C2FD21 /* ObjectiveCiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				EF53B9D826ADD43200C2FD21 /* AppDelegate.h */,
+				EF53B9D926ADD43200C2FD21 /* AppDelegate.m */,
+				EF53B9DB26ADD43200C2FD21 /* SceneDelegate.h */,
+				EF53B9DC26ADD43200C2FD21 /* SceneDelegate.m */,
+				EF53B9DE26ADD43200C2FD21 /* ViewController.h */,
+				EF53B9DF26ADD43200C2FD21 /* ViewController.m */,
+				EF53B9E126ADD43200C2FD21 /* Main.storyboard */,
+				EF53B9E726ADD43300C2FD21 /* Assets.xcassets */,
+				EF53B9E926ADD43300C2FD21 /* LaunchScreen.storyboard */,
+				EF53B9EC26ADD43300C2FD21 /* Info.plist */,
+				EF53B9ED26ADD43300C2FD21 /* main.m */,
+				EF53B9E426ADD43200C2FD21 /* ObjectiveCiOSApp.xcdatamodeld */,
+			);
+			path = ObjectiveCiOSApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF53B9D426ADD43200C2FD21 /* ObjectiveCiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF53B9F126ADD43300C2FD21 /* Build configuration list for PBXNativeTarget "ObjectiveCiOSApp" */;
+			buildPhases = (
+				EF53B9D126ADD43200C2FD21 /* Sources */,
+				EF53B9D226ADD43200C2FD21 /* Frameworks */,
+				EF53B9D326ADD43200C2FD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveCiOSApp;
+			productName = ObjectiveCiOSApp;
+			productReference = EF53B9D526ADD43200C2FD21 /* ObjectiveCiOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF53B9CD26ADD43200C2FD21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EF53B9D426ADD43200C2FD21 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = EF53B9D026ADD43200C2FD21 /* Build configuration list for PBXProject "ObjectiveCiOSApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF53B9CC26ADD43200C2FD21;
+			productRefGroup = EF53B9D626ADD43200C2FD21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF53B9D426ADD43200C2FD21 /* ObjectiveCiOSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF53B9D326ADD43200C2FD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF53B9EB26ADD43300C2FD21 /* LaunchScreen.storyboard in Resources */,
+				EF53B9E826ADD43300C2FD21 /* Assets.xcassets in Resources */,
+				EF53B9E326ADD43200C2FD21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF53B9D126ADD43200C2FD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF53B9EE26ADD43300C2FD21 /* main.m in Sources */,
+				EF53B9E026ADD43200C2FD21 /* ViewController.m in Sources */,
+				EF53B9DA26ADD43200C2FD21 /* AppDelegate.m in Sources */,
+				EF53B9DD26ADD43200C2FD21 /* SceneDelegate.m in Sources */,
+				EF53B9E626ADD43200C2FD21 /* ObjectiveCiOSApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF53B9E126ADD43200C2FD21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF53B9E226ADD43200C2FD21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF53B9E926ADD43300C2FD21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF53B9EA26ADD43300C2FD21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF53B9EF26ADD43300C2FD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF53B9F026ADD43300C2FD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF53B9F226ADD43300C2FD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				INFOPLIST_FILE = ObjectiveCiOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikdesk.ObjectiveCiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF53B9F326ADD43300C2FD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YU877859X;
+				INFOPLIST_FILE = ObjectiveCiOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikdesk.ObjectiveCiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF53B9D026ADD43200C2FD21 /* Build configuration list for PBXProject "ObjectiveCiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF53B9EF26ADD43300C2FD21 /* Debug */,
+				EF53B9F026ADD43300C2FD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF53B9F126ADD43300C2FD21 /* Build configuration list for PBXNativeTarget "ObjectiveCiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF53B9F226ADD43300C2FD21 /* Debug */,
+				EF53B9F326ADD43300C2FD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF53B9E426ADD43200C2FD21 /* ObjectiveCiOSApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF53B9E526ADD43200C2FD21 /* ObjectiveCiOSApp.xcdatamodel */,
+			);
+			currentVersion = EF53B9E526ADD43200C2FD21 /* ObjectiveCiOSApp.xcdatamodel */;
+			path = ObjectiveCiOSApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF53B9CD26ADD43200C2FD21 /* Project object */;
+}
